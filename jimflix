@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YouTube Video Player</h1>
+        <p>Watch the latest videos and music videos.</p>
+    </header>
+
+    <section>
+        <h2>Regular Videos</h2>
+        <!-- Replace "VIDEO_ID_1" and "VIDEO_ID_2" with the actual YouTube video IDs -->
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Music Videos</h2>
+        <!-- Replace "MUSIC_VIDEO_ID_1" and "MUSIC_VIDEO_ID_2" with the actual YouTube music video IDs -->
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MUSIC_VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MUSIC_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 YouTube Video Player. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
